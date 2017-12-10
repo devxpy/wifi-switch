@@ -27,8 +27,6 @@ setup_script_tasks = [
     ['systemctl', 'disable', 'dnsmasq.service']
 ]
 
-def auto_setup(ssid='HelloWorld', passwd=None, interface='wlan0', channel=8):
-
 def change_wifi_mode(mode, ssid='', passwd='', wep=0):
     """
     Switch the mode of the wifi adapter between client(0) and AP(1)
